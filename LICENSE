@@ -19,3 +19,25 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+---
+
+# 🛠️ 2. CONTRIBUTING.md  
+Archivo esencial para que la gente sepa cómo colaborar.
+
+```markdown
+# Guía de Contribución
+
+Gracias por tu interés en contribuir a **Fénix SDK**.
+
+## 🧰 Requisitos
+- Python 3.9+
+- pip / venv
+- Conocimientos básicos de asincronía y visión por computadora
+
+## 🛠️ Configuración del entorno
+```bash
+git clone https://github.com/antonior2200-oss/F-nix-sdk-.git
+cd F-nix-sdk-
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
