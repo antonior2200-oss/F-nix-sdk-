@@ -41,3 +41,8 @@ cd F-nix-sdk-
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
+
+ejemplo 
+from fenix import VisionLoop
+loop = VisionLoop(source=0)  # webcam
+loop.start()
